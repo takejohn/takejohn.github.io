@@ -1,0 +1,25 @@
+h2 {
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: aquamarine;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-prefixed::before {
+    content: '';
+    display: inline-block;
+    margin-right: 0.5ex;
+    width: min(1em, 16px);
+    height: min(1em, 16px);
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.icon-prefixed-github::before {
+    background-image: url(/img/github-mark/github-mark.svg);
+}
+
+.icon-prefixed-qiita::before {
+    background-image: url(/img/qiita-png/favicon.png);
+}
